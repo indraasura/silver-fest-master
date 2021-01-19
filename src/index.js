@@ -57,15 +57,15 @@ function Content() {
       <Block factor={1} offset={0}>
         <Block factor={1.2}>
           <Text left size={w * 0.08} position={[-w / 3.2, 0.5, -1]} color="#d40749">
-            MOKSHA
+            Fest 5.0
           </Text>
         </Block>
         <Block factor={1.0}>
-          <Dom position={[-w / 3.2, -w * 0.08 + 0.25, -1]}>It was the year 2076.{mobile ? <br /> : " "}The substance had arrived.</Dom>
+          <Dom position={[-w / 3.2, -w * 0.08 + 0.25, -1]}>It was the year 2021.{mobile ? <br /> : " "}The substance had arrived.</Dom>
         </Block>
       </Block>
       <Block factor={1.2} offset={5.7}>
-        <MultilineText top left size={w * 0.15} lineHeight={w / 5} position={[-w / 3.5, 0, -1]} color="#2fe8c3" text={"four\nzero\nzero"} />
+        <MultilineText top left size={w * 0.15} lineHeight={w / 5} position={[-w / 3.5, 0, -1]} color="#2fe8c3" text={"silver\nfest\n5.0"} />
       </Block>
       {state.paragraphs.map((props, index) => (
         <Paragraph key={index} index={index} {...props} image={images[index]} />
@@ -77,7 +77,7 @@ function Content() {
       ))}
       <Block factor={1.25} offset={8}>
         <Dom className="bottom-left" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-          Culture is not your friend.
+          Made with ❤
         </Dom>
       </Block>
     </>
@@ -103,15 +103,15 @@ function App() {
         ))}
       </div>
       <div className="frame">
-        <h1 className="frame__title">Scroll, Refraction and Shader Effects</h1>
+        <h1 className="frame__title">This valentine's not only about roses</h1>
         <div className="frame__links">
-          <a className="frame__link" href="http://tympanus.net/Tutorials/PhysicsMenu/">
-            Previous demo
+          <a className="frame__link" href="https://instagram.com/swarup_hegde">
+            About the dev
           </a>
-          <a className="frame__link" href="https://tympanus.net/codrops/?p=45441">
-            Article
+          <a className="frame__link" href="#">
+            Safety Policy
           </a>
-          <a className="frame__link" href="https://github.com/drcmda/the-substance">
+          <a className="frame__link" href="https://github.com/indraasura/">
             GitHub
           </a>
         </div>
